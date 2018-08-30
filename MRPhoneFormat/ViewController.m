@@ -10,7 +10,7 @@
 #import "MRPhoneFormatManager.h"
 
 @interface ViewController ()<UITextFieldDelegate>
-
+@property(nonatomic, strong) UIView *View;
 @end
 
 @implementation ViewController
